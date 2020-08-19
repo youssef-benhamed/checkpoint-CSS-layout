@@ -10,6 +10,10 @@ header{
     justify-content: space-between;
     width: 0% 10%;
     padding: 2%;
+    margin: 0 10%;
+    background-color: white;
+    top: 0;
+    position: fixed;
 }
 header ul{
     display: flex;
@@ -22,7 +26,7 @@ header ul{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 2% 10%;
+    margin: 10% 10%;
 }
 .introduction div{
     display: flex;
