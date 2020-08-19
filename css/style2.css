@@ -1,0 +1,95 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#logo{
+    width: 20%;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    width: 0% 10%;
+    padding: 2%;
+}
+header ul{
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+    color: gray;
+    list-style: none;
+}
+.introduction{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2% 10%;
+}
+.introduction div{
+    display: flex;
+    justify-content: space-between;
+}
+.introduction div p{
+    width: 45%;
+    font-size: 120%;
+    margin: 2%;
+    line-height: 1,75;
+    color: gray;
+}
+.introduction h1{
+    font-size: 2,125rem;
+    color: #00b39b;
+    margin: 2%;
+}
+.content{
+    display: flex;
+    justify-content: space-around;
+    margin: 2% 10%;
+}
+.c1{
+    background-color: #00b39b;
+    width: 40%;
+    padding: 3%;
+    overflow: hidden;
+}
+.c2{
+    background-color: #3d83df;
+    width: 40%;
+    padding: 3%;
+    overflow: hidden;
+}
+.c1 img{
+    width: 80%;
+    margin-left: 42%;
+}
+.c2 img{
+    width: 80%;
+    margin-left: 42%;
+}
+.one:hover{
+    box-shadow: 4px 4px 2px 1px gray;
+}
+.one{
+    width: 23%;
+    border: solid 1px gray;
+    padding-right: 20px;
+}
+.two{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+h3{
+    background-color: cornflowerblue;
+    padding: 4px 10px;
+    color: white;
+}
+a{
+    text-decoration: none;
+}
+.three{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 17px;
+    flex-wrap: wrap;
+}
+
